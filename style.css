@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#landing{
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+}
+
+#navbar{
+    height:10%;
+    width:100%;
+    background-color:rgba(131, 95, 44, 0.952);
+    display: flex;
+    position: sticky;      
+}
+
+#navImage{
+    height:120px;
+    width:140px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    background-size: cover;
+
+}
+
+#nav{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+    gap: 100px;
+    align-items: center;
+    position: fixed;
+}
+
+#nav a{
+    font-size: 22px;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: rgb(65, 43, 15);
+}
+
+#hero{
+    height:90%;
+    width:100%; 
+    display: flex;     
+}
+
+#lHero{
+    width:15%;
+    height:100%;
+    background-color: rgb(99, 63, 16);
+    position: relative;
+}
+
+#mHero{
+    width:50%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-image: url("https://images.pexels.com/photos/2128109/pexels-photo-2128109.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-blend-mode:darken;
+    background-position:center;
+    background-size: cover;
+}
+
+#rHero{
+    width:35%;
+    height: 100%;
+    background-color: rgba(131, 95, 44, 0.952);
+}
+
+#tagline{
+    position: absolute;
+    top:280px;
+    left:30px;
+    height:260px;
+    width:600px;
+    
+    /* background-color: aliceblue; */
+}
+
+#orderb{
+    padding:15px;
+    font-size: 20px;
+    background-color: rgb(193, 152, 99);
+    border-color: rgb(137, 101, 55);
+    box-shadow:5px 5px 4px rgb(67, 39, 36);
+}
+
+#tagline p{
+    font-size: 65px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(209, 176, 138);
+}
+
+#vid{
+    width:35%;
+    height:75%;
+    background-color: blueviolet;
+    position: absolute;
+    top:120px;
+    left:730px;
+    object-fit: cover;
+}
+
+#vertiText{
+    position: relative;
+    letter-spacing: 3px;
+    font-weight: 500;
+    top: 290px;
+    left:155px;
+    
+    font-size: 21.5px;
+    transform: rotate(90deg);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f6f3f3;
+}
+
+#second{
+    height:100vh;
+    width:100%;
+    background-color: orange;
+}
