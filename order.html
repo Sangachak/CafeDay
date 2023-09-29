@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="order.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="orderPage">
+      <div id="navbar">
+        <img
+          id="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaf2G7EU1JuQOLyKVnQJsBzfcylCc7d53iiA&usqp=CAU"
+        />
+        <div id="nav">
+          <a href="index.html">HOME</a>
+          <!-- <a href="#menu">BREWLINE</a> -->
+          <a href="#souvenier">COFFEE GIFTS</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#contact">CONTACT US</a>
+        </div>
+        <!-- <a href="cart.html"
+          ><img
+            id="cartLogo"
+            src="https://tse4.mm.bing.net/th?id=OIP.qsnF5f_c-wb5QkKAtf79jgHaHa&pid=Api&P=0&h=180"
+        /></a> -->
+        <!-- <h3 id="num">0</h3> -->
+      </div>
+      <div id="menu">
+        <div id="menu1">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX6qL54iTrJ5rGLMvnqs1U1IeN--BqDoPsmw&usqp=CAU"
+          />
+
+          <h2 id="name">EXPRESSO</h2>
+          <h3>INR:60</h3>
+          <input id="one" type="number" placeholder="0" />
+        </div>
+        <div id="menu2">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKN7zPC3XtChfAcUV-uDk-CwJJWDzM9LqpA&usqp=CAU"
+          />
+          <h2 id="name">AMERICANO</h2>
+          <h3>INR:70</h3>
+          <input id="two" type="number" placeholder="0" />
+        </div>
+        <div id="menu3">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxpCd2hTdPoP_YZSg65oOMSOaOZIFMnFIWaw&usqp=CAU"
+          />
+          <h2 id="name">CAPPUCCINO</h2>
+          <h3>INR:80</h3>
+          <input id="three" type="number" placeholder="0" />
+        </div>
+        <div id="menu4">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7E00gSGuGHmFGrVSQBC8d1MSHQNDswwxtzQ&usqp=CAU"
+          />
+          <h2 id="name">FLAT WHITE</h2>
+          <h3>INR:100</h3>
+          <input id="four" type="number" placeholder="0" />
+        </div>
+        <div id="menu5">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJAvCuKG8UWtSDO-ZwkwZIBwFhpu7jmV4K5g&usqp=CAU"
+          />
+          <h2 id="name">LATTE</h2>
+          <h3>INR:130</h3>
+          <input id="five" type="number" placeholder="0" />
+        </div>
+        <div id="menu6">
+          <img
+            id="coffeeIm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSfhF6_kZE5yVFF9-WHgxarDCXqQMiIfqQJA&usqp=CAU"
+          />
+          <h2 id="name">MOCHA</h2>
+          <h3>INR:140</h3>
+          <input id="six" type="number" placeholder="0" />
+        </div>
+      </div>
+      <div id="hotBox">
+        <img
+          id="hotIm"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-RvHbMyVDUq0gH8UF-lfPGw-YcGr9YkUlA&usqp=CAU"
+        />
+        <h2 id="name">FRAPPUCCINO</h2>
+        <h3>INR:200</h3>
+        <input id="seven" type="number" placeholder="0" />
+      </div>
+    </div>
+
+    <div id="totCard">
+        <a href="cart.html"
+          ><img
+            id="cartLogo"
+            src="https://tse4.mm.bing.net/th?id=OIP.qsnF5f_c-wb5QkKAtf79jgHaHa&pid=Api&P=0&h=180"
+        /></a>
+        <h3 id="num">0</h3>
+
+      <h1 id="totals">Nothing here.</h1>
+      <button id="checkout">Place Order</button>
+    </div>
+
+    <!-- Order form -->
+    
+    <div id="orderPlacePage">
+        <form id="orderBox" action="submit.html">
+           <input type="text" placeholder="Enter Name" required>
+           <input type="text" placeholder="Enter Pincode" required>
+           <input type="text" placeholder="Enter Address" required>
+           <input type="text" placeholder="Enter Contact Number" required>
+           <div id="orderTotal">
+            <p id="orderTotalp"></p>
+           </div>
+          <button id="submitButton">Place Order</button>
+        </form>
+    </div>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
