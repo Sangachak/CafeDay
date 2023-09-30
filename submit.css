@@ -1,0 +1,69 @@
+*{
+    padding:o;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+#sub{
+    height:100vh;
+    width:100%;
+    
+    
+    background-image: linear-gradient(rgb(25, 18, 18), rgb(121, 87, 28));
+    
+}
+
+#subBox{
+    height:500px;
+    width:660px;
+    background-color: rgba(0, 0, 0, 0.541);
+    position: relative;
+    top:80px;
+    left:300px;
+    align-items: center;
+    text-align: center;
+}
+
+#vid{
+    width:52%;
+    height:74%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:80px;
+    left:300px;
+    object-fit: cover;
+}
+
+#overlay{
+    width:52%;
+    height:74%;
+    background-color: rgba(0, 0, 0, 0.833);
+    position: absolute;
+    top:80px;
+    left:300px;
+}
+
+#buttons{
+    position: absolute;
+    top:420px;
+    left:15px;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+#but{
+    height:30px;
+    width: 120px;;
+    
+}
+
+#message{
+    width:250px;
+    
+    position: absolute;
+    color: aliceblue;
+    top:210px;
+    left:20px;
+}

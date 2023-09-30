@@ -10,7 +10,7 @@ function calculateTotal() {
     let tot=men1+men2+men3+men4+men5+men6+men7;
     document.getElementById("num").textContent = tot;
 
-    let val=(men1*60)+(men2*70)+(men3*100)+(men4*120)+(men5*140)+(men6*180)+(men7*180);
+    let val=(men1*60)+(men2*70)+(men3*80)+(men4*100)+(men5*130)+(men6*140)+(men7*200);
     // document.getElementById("totals").textContent = val;
     if (val!=0) {
         document.getElementById("totals").textContent = "Total: "+val;
@@ -47,3 +47,4 @@ function calculateTotal() {
     orderPlacePage.scrollIntoView({behavior:'smooth'})
   });
 
+  

@@ -2,13 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: bisque;
-  
+  /* background-color: bisque; */
+  /* background-image: linear-gradient(brown, yellow);
+   */
+   
+}
+
+#wholePage{
+    background-image: linear-gradient(rgba(255, 166, 0, 0.573),rgb(56, 29, 29));
+    overflow-x: hidden;
 }
 
 #orderPage {
   height: 100vh;
   width: 100%;
+  /* background-image: linear-gradient(brown, yellow); */
+  /* background-image: linear-gradient(rgba(255, 166, 0, 0.573),rgb(56, 29, 29)); */
 }
 
 #navbar {
@@ -66,11 +75,13 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    /* background-color: rgb(91, 44, 44); */
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
-    top:98px;
+    top:80px;
     left:50px;
     padding:5px;
+    box-shadow: 4px 4px 5px rgb(88, 26, 19);
 }
 #menu2{
     display: flex;
@@ -80,13 +91,15 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
-    top:98px;
+    top:80px;
     left:320px;
     padding:5px;
+    box-shadow: 4px 4px 5px rgb(88, 26, 19);
 }
 #menu3{
+    box-shadow: 4px 4px 5px rgb(88, 26, 19);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,13 +107,14 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
-    top:98px;
+    top:80px;
     left:590px;
     padding:5px;
 }
 #menu4{
+    box-shadow: 4px 4px 5px rgb(57, 17, 12);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +122,7 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
     top:380px;
     left:50px;
@@ -122,13 +136,15 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
     top:380px;
     left:320px;
     padding:5px;
+    box-shadow: 4px 4px 5px rgb(57, 17, 12);
 }
 #menu6{
+    box-shadow: 4px 4px 5px rgb(57, 17, 12);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,7 +152,7 @@
     gap:5px;
     height:270px;
     width:220px;
-    background-color: rgb(187, 150, 71);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
     top:380px;
     left:590px;
@@ -144,11 +160,12 @@
 }
 
 #hotBox{
+    box-shadow: 4px 4px 5px rgb(57, 17, 12);
     height:400px;
     width:360px;
-    background-color: rgb(220, 187, 137);
+    background-image: linear-gradient(rgb(23, 2, 2), rgb(212, 171, 93));
     position: absolute;
-    top:98px;
+    top:80px;
     right:55px;
     display: flex;
     flex-direction: column;
@@ -216,15 +233,22 @@
     #orderPlacePage{
         height:100vh;
         width:100%;
+        /* background-image: linear-gradient(rgba(255, 166, 0, 0.573),rgb(56, 29, 29)); */
         
+    }
+
+    #final{
+        position:relative;
+        top:50px;
+        left:435px;
     }
 
     #orderBox{
         height:500px;
         width:400px;
-        background-color: aliceblue;
+        background-color: rgb(245, 237, 224);
         position: relative;
-        top:120px;
+        top:80px;
         left:430px;
         display: flex;
         flex-direction: column;
@@ -255,5 +279,9 @@
     #submitButton{
         padding:10px;
     }
+
+
+    /* The Modal (background) */
+
 
    
